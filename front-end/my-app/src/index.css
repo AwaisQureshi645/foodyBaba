@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* overflow: hidden; */
+}
+h1{
+  overflow: hidden;
+}
+h2{
+  overflow-y: hidden;
+}
+
+:root {
+  --main-color: #007bff; /* You can use any valid color value here */
+  --yellow-color:#ffa300;
+  --green-color:#16b97a;
+  --black-color:#1e251c;
+  --white-color:#eef7f8;
+}
+body {
+    user-select: none;
+    /* font-family: 'Lato', sans-serif; */
+  }
+  .projectButton_box button{
+    background-color: var(--yellow-color);
+    outline: none;
+    border-top-left-radius: 0.5rem;
+border-bottom-right-radius: 1rem;
+  }
+  .projectButton_box button:hover{
+    background-color: var(--green-color);
+  }
+
+/* Set the scrollbar container's width, height, and overflow property */
+/* .scrollbar {
+    background-color: #705858;
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 65px;
+    overflow-y: scroll;
+    user-select: none;
+  }
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  /* Set the custom scrollbar width and background color */
+  #style-1::-webkit-scrollbar {
+    width: 10px;
+    background-color: #c40f0f;
+    z-index: 10;
+    user-select: none;
+  }
+  .scrollable-element {
+    /* Other styles for the scrollable element */
+    overscroll-behavior: contain;
+  }
+  /* Customize the appearance of the scrollbar handle */
+

@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+#logo h1 {
+    padding-left: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1E251C;
+}
+
+.signup_btnss{
+
+    background-color: var(--yellow-color);
+   width: 7rem;
+   border-top-left-radius: 0.7rem;
+   border-bottom-right-radius: 1rem;
+   color: white !important; 
+}
+.signup_btnss:hover{
+    background-color: var(--green-color);
+    color: white;
+    /* padding: -1rem; */
+}
+
+#logo h1 span {
+    color: #16b97a;
+}
+
+.header {
+    width: 100%;
+
+    height: auto;
+    background-color: blueviolet;
+
+}
+
+.navbar {
+    background-color: #ebf9ff;
+    /* background-color: transparent; */
+    overflow: hidden;
+    display: flex;
+    /* border-bottom: 1px solid gray; */
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0%;
+    z-index: 5;
+    padding-right: 2rem;
+}
+
+
+
+.navbar a {
+
+    float: left;
+    color: rgb(11, 10, 10);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+.navbar a:active {
+    color: orange;
+}
+
+
+
+.menu_icon {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.navbar.scrolled {
+    background-color: #edecec;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* responsive resign  */
+@media (max-width: 600px) {
+    /* Styles for mobile devices */
+
+
+
+    #logo h1 {
+        font-size: 10px;
+
+    }
+
+    .menu_icon {
+        display: block;
+        float: right;
+        color: rgb(1, 1, 1);
+        margin-right: 2rem;
+
+        /* margin-top: 0.5rem; */
+        padding: 14px 16px;
+    }
+
+    .navbar {
+        display: flex;
+        /* box-sizing: border-box; */
+        width: 100vw;
+        /* justify-content: end; */
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        transition: max-height 0.3s ease-in-out;
+        max-height: 0;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    .menu.show {
+        max-height: 300px;
+        /* Adjust the max height as needed */
+        transition: max-height 0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar {
+        width: 100vw;
+        box-sizing: border-box;
+
+
+    }
+
+    .menu_icon {
+
+        margin-right: 0rem;
+    }
+}

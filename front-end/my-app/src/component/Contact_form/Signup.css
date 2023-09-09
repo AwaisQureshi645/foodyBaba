@@ -1,0 +1,71 @@
+.form_container{
+    width: 30%;
+    margin: auto;
+  margin-top: 5rem;
+  border: 1px solid rgb(205, 203, 203);
+  padding: 1rem;
+  background-color: var(--white-color);
+  }
+  .form_container input{
+   /* border: none; */
+    outline: none;
+  }
+  #exampleInputEmail1{
+    width: 95%;
+    border: 1px solid gray;
+    height: 7vh;
+    border-radius: 0.3rem;
+    padding-left: 1rem;
+  }
+  #exampleInputPassword{
+    width: 95%;
+border: 1px solid gray;
+height: 7vh;
+border-radius: 0.3rem;
+padding-left: 1rem;
+  }
+  #exampleInputPassword1{
+    width: 95%;
+    border: 1px solid gray;
+    height: 7vh;
+    border-radius: 0.3rem;
+    padding-left: 1rem; 
+  }
+  .btn_signup:hover{
+    background-color: var(--green-color);
+  }
+  .btn_signup{
+    width: 10rem;
+    height: 8vh;
+    background-color: var(--yellow-color);
+    margin: 1rem 0rem;
+    border-top-left-radius: 1rem;
+    color: white;
+    border-bottom-right-radius: 2rem;
+  }
+@media (max-width: 400px) {
+
+  .form_container{
+    width: 95%;}
+
+}
+@media (max-width: 600px) and  (min-width: 401px){
+  .form_container{
+    width: 95%;}
+
+}
+@media (max-width: 667px) and  (min-width: 601px){
+  .form_container{
+    width: 70%;}
+
+}
+@media (max-width: 991px) and  (min-width: 668px){
+  .form_container{
+    width: 70%;}
+
+}
+@media   (min-width: 992px){
+  .form_container{
+    width: 40%;}
+
+}

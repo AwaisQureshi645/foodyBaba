@@ -1,0 +1,147 @@
+body {
+    padding-top: 3rem;
+}
+
+.heroSection {
+    width: 100%;
+    height: auto;
+    background-color: #eef7f8;
+}
+
+.profession_heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffa300;
+    /* font-style: italic; */
+    font-weight: 500;
+}
+
+.hero_container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.left_heroSection {
+    width: 50%;
+    padding-top: 5rem;
+}
+
+.rightHeroSection {
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.left_heroSection h1 {
+    font-size: 4rem;
+    color: var(--black-color)
+}
+
+.left_heroSection h1 span {
+    color: var(--green-color);
+}
+
+.right_container {
+    width: 90%;
+    margin-top: 3rem;
+    height: auto;
+    margin: auto;
+    border-top-left-radius: 6rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 10rem;
+    z-index: 10;
+    background-color: var(--yellow-color);
+
+}
+
+.right_container img {
+    width: 34rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#tomatoleave {
+    width: 8rem;
+    margin-top: -6rem;
+    margin-left: 1rem;
+}
+
+.get_started_btn{
+    width: 10rem;
+    margin-top: 4rem;
+    border-top-left-radius: 0.4rem;
+    border-bottom-right-radius: 1rem;
+    border: none;
+    background-color: var(--yellow-color);
+    height: 7vh;
+    color: #ffffff;
+}
+.get_started_btn:hover{
+    background-color: var(--green-color);
+}
+
+
+
+
+@media (max-width: 400px) {
+    .left_heroSection {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .rightHeroSection {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    #tomatoleave {
+        margin-top: -3rem;
+    }
+  }
+  
+@media (max-width: 600px) and  (min-width: 401px){
+    .left_heroSection {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .rightHeroSection {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    #tomatoleave {
+        margin-top: -3rem;
+    }
+  }
+  @media (max-width: 767px) and  (min-width: 601px){
+    .left_heroSection {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .rightHeroSection {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    #tomatoleave {
+        margin-top: -3rem;
+    }
+  }
+  @media (max-width: 991px)  and (min-width: 768px){
+    .left_heroSection {
+        width: 50%;
+        /* padding-top: 2rem; */
+    }
+    .rightHeroSection {
+        width: 50%;
+        margin-top: 10rem;
+    }
+    #tomatoleave {
+        margin-top: -3rem;
+    }
+  }
+
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for large screens */
+    .rightHeroSection {
+        width: 50%;
+        margin-top: 5rem;
+    }
+  }

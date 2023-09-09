@@ -1,0 +1,94 @@
+.left_contact_data {
+    /* border: 1px solid red; */
+    /* width: 40%; */
+    height: auto;
+}
+
+.form_box_container {
+    width: 90%;
+    margin: auto;
+}
+
+.form_data input {
+    width: 92%;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 1rem;
+    border-radius: 0.4rem;
+}
+
+.right_contact_data {
+    /* width: 60%; */
+    height: auto;
+    /* margin-left: 0.2rem; */
+    /* border: 1px solid green;s */
+}
+
+.form_data textarea {
+    width: 95%;
+    border: 0.4rem;
+    border-radius: 0.4rem;
+    outline: none;
+    border: 1px solid gray;
+    height: 36vh;
+
+}
+
+.send_message {
+    margin-top: 1rem;
+    width: 14rem;
+    height: 8vh;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 2rem;
+    color: white;
+    background-color: var(--yellow-color);
+    margin-bottom: 5rem;
+}
+.send_message:hover{
+    background-color: var(--green-color);
+}
+@media (max-width: 400px) {
+
+   
+    .form_data input {
+        width: 100%;}
+        .right_contact_data {
+            /* width: 60%; */
+            height: auto;
+            margin-left: 0.5rem;
+            /* border: 1px solid green;s */
+        }
+}
+  
+@media (max-width: 640px) and  (min-width: 401px){
+
+    .form_data input {
+        width: 100%}
+        .right_contact_data {
+            /* width: 60%; */
+            height: auto;
+            margin-left: 0.5rem;
+            /* border: 1px solid green; */
+        }
+}
+@media (max-width: 767px) and  (min-width: 641px){
+
+
+    .form_data input {
+        width: 95%;}
+        .form_data textarea {
+            width: 100%;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .form_data input {
+        width: 95%;}
+        .form_data textarea {
+            width: 100%;}
+}
+@media (max-width: 991px)  and (min-width: 768px){
+    .form_data input {
+        width: 95%;}
+        .form_data textarea {
+            width: 100%;}
+}

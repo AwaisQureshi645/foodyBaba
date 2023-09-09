@@ -1,0 +1,10 @@
+.footer_conternt{
+    width: 95%;
+    margin: auto;
+    /* margin-bottom: 5rem; */
+    margin: 5rem 0rem;
+}
+.copy_right{
+    width: 100%;
+    background-color: var(--green-color);
+}
